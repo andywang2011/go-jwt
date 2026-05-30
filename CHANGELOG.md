@@ -2,4 +2,4 @@
 
 ## Unreleased
 
-- Initial extract from demo-api/pkg/jwt as standalone module.
+- OSS scaffold and documentation updates.

@@ -4,6 +4,7 @@ import "errors"
 
 // Config holds JWT signing settings.
 type Config struct {
+	// Secret is the HMAC signing key; must be non-empty.
 	Secret string
 }
 
