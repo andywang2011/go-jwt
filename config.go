@@ -8,6 +8,9 @@ type Config struct {
 	Secret string
 }
 
+// ConfigDefault returns an empty Config; Secret must be set before NewClient.
+func ConfigDefault() Config { return Config{} }
+
 // Validate checks required fields.
 func (c Config) Validate() error {
 	if len(c.Secret) == 0 {
